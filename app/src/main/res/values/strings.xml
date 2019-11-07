@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Ghi chú thông minh</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="key_note_send">key_note_send</string>
+    <string name="key_note_is_new">key_note_is_new</string>
+    <string name="shp_filename_save_note">mynote</string>
+    <string name="db_my_note">db_my_note</string>
+    <string name="col_id_note">ID_NOTE</string>
+    <string name="col_title">TITLE</string>
+    <string name="col_tag">TAG</string>
+    <string name="col_content">CONTENT</string>
+    <string name="col_time">TIME</string>
+
+</resources>

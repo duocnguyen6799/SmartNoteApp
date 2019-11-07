@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:padding="10dp"
+    android:elevation="10dp"
+    android:weightSum="10"
+    android:background="@drawable/background_stroke_gray"
+    android:id="@+id/lnItemNote"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_weight="8.5"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:id="@+id/txtTitle"
+            android:text="@string/app_name"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtTag"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic"
+            android:singleLine="true"
+            android:text="#test #15min"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="20/10/2019, 6H10'59&quot;"
+            android:textColor="#757575"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight="1.5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <ImageButton
+            android:padding="10dp"
+            android:background="@null"
+            android:src="@drawable/ic_delete_forever_black_24dp"
+            android:id="@+id/imbDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
